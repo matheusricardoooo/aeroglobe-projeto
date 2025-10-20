@@ -3,9 +3,11 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 20px 60px;
+    height: 16vh;
     background-color: #001B36;
     position: fixed;
+    z-index: 1000;
+    padding: 0px 20px;
 }
 
 header .menu-logo img {
@@ -77,12 +79,17 @@ header nav ul li a:hover {
     }
 
     .close-menu {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
     }
 
     .menu-mobile {
         display: flex;
+    }
+
+    .menu-mobile li a:hover {
+        transform: none;
     }
 
     .menu-dersktop li {
