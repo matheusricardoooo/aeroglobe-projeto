@@ -1,0 +1,132 @@
+#services {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/image-services.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 140px;
+}
+
+.card-confort {
+    width: 412px;
+    height: 567px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: "Poppins", serif;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.card-confort h2 {
+    margin-top: 19px;
+}
+
+.card-confort ul {
+    font-size: 1.1rem;
+    margin-top: 49px;
+}
+
+.card-confort button {
+    width: 305px;
+    height: 76px;
+    margin-top: 54px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+.card-confort button:hover {
+    transform: scale(1.1);
+}
+
+.card-experience {
+    width: 412px;
+    height: 567px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: "Poppins", serif;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.card-experience h2 {
+    margin-top: 19px;
+}
+
+.card-experience ul {
+    font-size: 1.1rem;
+    margin-top: 49px;
+}
+
+.card-experience button {
+    width: 305px;
+    height: 76px;
+    margin-top: 54px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+.card-experience button:hover {
+    transform: scale(1.1);
+}
+
+.card-atendiment {
+    width: 412px;
+    height: 567px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: "Poppins", serif;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.card-atendiment h2 {
+    margin-top: 19px;
+}
+
+.card-atendiment ul {
+    margin-left: 50px;
+    font-size: 1.1rem;
+    margin-top: 49px;
+}
+
+.card-atendiment button {
+    width: 305px;
+    height: 76px;
+    margin-top: 54px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+.card-atendiment button:hover {
+    transform: scale(1.1);
+}
