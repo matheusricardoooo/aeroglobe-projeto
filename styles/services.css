@@ -130,3 +130,126 @@
 .card-atendiment button:hover {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 500px) {
+
+    #services {
+        height: 240vh;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding-top: 90px;
+    }
+
+    .card-confort {
+        width: 270px;
+        height: 520px;
+    }
+
+    .card-confort img {
+        margin-top: -20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-confort h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .card-confort ul {
+        width: 200px;
+        font-size: 1rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .card-confort button {
+        width: 190px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .card-confort button:hover {
+        transform: none;
+    }
+
+    .card-experience {
+        width: 270px;
+        height: 520px;
+    }
+
+    .card-experience img {
+        margin-top: -20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-experience h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .card-experience ul {
+        width: 200px;
+        font-size: 1rem;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .card-experience button {
+        width: 190px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .card-experience button:hover {
+        transform: none;
+    }
+
+    .card-atendiment {
+        width: 270px;
+        height: 520px;
+    }
+
+    .card-atendiment img {
+        margin-top: -20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-atendiment h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .card-atendiment ul {
+        width: 200px;
+        font-size: 1rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .card-atendiment button {
+        width: 190px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .card-atendiment button:hover {
+        transform: none;
+    }
+
+}
