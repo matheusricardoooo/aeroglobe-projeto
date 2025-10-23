@@ -67,13 +67,14 @@ main .assuntos button:hover {
     main .assuntos h1 {
         width: 320px;
         font-size: 2rem;
+        margin-left: 20px;
     }
 
     main .assuntos p {
-        width: 347px;
+        width: 257px;
         font-size: 1rem;
         margin-top: 30px;
-        margin-left: 40px;
+        margin-right: 20px;
     }
 
     main .assuntos button {
@@ -81,7 +82,6 @@ main .assuntos button:hover {
         font-size: 1rem;
         font-weight: 700;
         margin-top: 40px;
-        margin-right: 60px;
     }
 
     main .assuntos button:hover {
