@@ -64,4 +64,8 @@
         margin-left: 50px;
     }
 
+    .destinations .content-destination button:hover {
+        transform: none;
+    }
+
 }
